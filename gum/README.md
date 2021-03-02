@@ -44,6 +44,26 @@ To use Disqus, add the Disqus site name via the following variable.
 DISQUS_SITENAME = ''
 ```
 
+To use Cactus.chat, add the cactus.chat sigtename via the following variable.
+
+This will be the sitename you registered with the cactusbot
+
+```
+CACTUS_SITENAME = ''
+```
+
+Additionally, you will need to set variables to specify the following variables:
+
+The url to your matrix homeserver
+```
+CACTUS_HOMESERVER = ''                                                                                                                                                        
+```
+
+Servername for cactus_chat web client
+```
+CACTUS_SERVERNAME = ''                                                                                                                                                                       
+```
+
 Other features include:
 
 ```

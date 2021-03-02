@@ -29,6 +29,9 @@
             <div class="entry-content">
               {{ article.content }}
             </div><!-- /.entry-content -->
+            {% if CACTUS_SITENAME %}
+                <div id="comment-section"></div>
+            {% endif %}
             {% if DISQUS_SITENAME %}
             <div class="comments">
               <h3>Comments</h3>

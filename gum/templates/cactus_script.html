@@ -1,0 +1,14 @@
+{% if CACTUS_SITENAME %}
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+    defaultHomeserverUrl: "{{CACTUS_HOMESERVER}}",
+    serverName: "{{CACTUS_SERVERNAME}}",
+    siteName: "{{CACTUS_SITENAME}}",
+    commentSectionId: "{{output_file}}"
+})
+</script>
+{% endif %}
